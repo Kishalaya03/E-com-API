@@ -1,0 +1,13 @@
+Place an order.
+
+Note:- We try to perform either all operations but if even one fails then nothing will be performed.
+i.e. either all operations will be performed or nothing will be perforrmed.
+This concept is Known as transactions in databases (MongoDB).
+1.Get cart items of the user, calculate the totalAmount.
+2.Create a record for the order.
+3.Reduce the stocks(Products Qunatity).
+4.Clear the path.
+
+5.Deduce the payment.
+6.Inform the sellers.
+7.Inform the courier.
